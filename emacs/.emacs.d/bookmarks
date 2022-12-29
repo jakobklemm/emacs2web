@@ -1,0 +1,11 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-capture-last-stored"
+ (filename . "~/org/database/eth/20221223-ebnf.org")
+ (front-context-string)
+ (rear-context-string . "AGS: \n#+DATE:  \n")
+ (position . 105)
+ (last-modified 25510 1001 594405 106000))
+)

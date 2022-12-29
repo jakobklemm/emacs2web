@@ -1,0 +1,5 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/user/.emacs.d/init.el" . 1698)
+ ("/home/user/.emacs.d/"
+  (dired-filename . "/home/user/.emacs.d/eln-cache"))
+ ("/home/user/.emacs.d/early-init.el" . 454))

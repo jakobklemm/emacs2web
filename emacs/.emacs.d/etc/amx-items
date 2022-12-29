@@ -1,0 +1,91 @@
+
+;; ----- amx-history -----
+(
+ ivy-posframe-mode
+ evil-mode
+ restart-emacs
+ kill-buffer
+ org-roam-ui-open
+ all-the-icons-install-fonts
+ count-words
+ balance-windows
+ eval-buffer
+ org-roam-db-sync
+ delete-file
+ org-display-inline-images
+ delete-directory
+ org-roam-ui-follow-mode
+ org-fragtog-mode
+ rename-file
+ customize-face
+ jk/publish-site
+ org-mode
+ org-table-insert-column
+ org-table-insert-row
+ write-file
+ langtool-check
+ delete-char
+ org-roam-ui-mode
+ org-toggle-inline-images
+ isearch-occur
+ avy-isearch
+ yaml-mode
+ package-install
+ cd
+ 5x5
+ amx
+ arp
+ dbx
+ dig
+ erc
+ ert
+ eww
+ ftp
+ gdb
+ irc
+ jdb
+ man
+ mpc
+ pdb
+ pwd
+ rsh
+ sdb
+ wos
+)
+
+;; ----- amx-data -----
+(
+ (package-install . 1)
+ (yaml-mode . 1)
+ (avy-isearch . 1)
+ (isearch-occur . 1)
+ (org-roam-db-sync . 7)
+ (org-roam-ui-open . 12)
+ (org-roam-ui-follow-mode . 12)
+ (eval-buffer . 11)
+ (org-toggle-inline-images . 1)
+ (rename-file . 5)
+ (count-words . 5)
+ (org-roam-ui-mode . 1)
+ (balance-windows . 6)
+ (evil-mode . 38)
+ (delete-char . 1)
+ (delete-file . 6)
+ (langtool-check . 1)
+ (langtool-correct-buffer . 1)
+ (langtool-check-done . 1)
+ (write-file . 1)
+ (org-table-insert-row . 1)
+ (org-table-insert-column . 1)
+ (org-mode . 1)
+ (org-fragtog-mode . 6)
+ (jk/publish-site . 1)
+ (customize-face . 1)
+ (org-roam-buffer-toggle . 1)
+ (org-display-inline-images . 3)
+ (delete-directory . 1)
+ (all-the-icons-install-fonts . 1)
+ (restart-emacs . 2)
+ (ivy-posframe-mode . 2)
+ (kill-buffer . 1)
+)
