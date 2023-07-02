@@ -31,9 +31,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: build emacs
-        run: |
-            cd emacs2web
-            build.sh
+        run: ./build.sh
       - name: upload compiled emacs as artefact
         uses: actions/upload-artifact@v3
         with:
