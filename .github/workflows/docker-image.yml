@@ -36,10 +36,10 @@ jobs:
 
       - name: download artifact
         run: |
-            sudo wget https://s3.jeykey.net/public-data/emacs-broadwayd.zip
+            sudo wget -q https://s3.jeykey.net/public-data/emacs-broadwayd.zip
 
       - name: unzip
-        run: sudo unzip -d -q emacs/ emacs-broadwayd.zip
+        run: sudo unzip -q -d emacs/ emacs-broadwayd.zip
 
       - name: install emacs
         run: |
