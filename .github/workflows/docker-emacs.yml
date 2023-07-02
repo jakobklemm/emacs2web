@@ -12,7 +12,7 @@ env:
 jobs:
   compile:
     runs-on: ubuntu-latest
-
+    
     permissions:
       contents: read
       packages: write
