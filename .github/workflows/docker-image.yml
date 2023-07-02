@@ -37,6 +37,9 @@ env:
         with:
           name: emacs-broadwayd
           path: emacs/
+      
+      - name: unzip
+        run: unzip -d emacs/ emacs.zip
 
       - name: install emacs
         run: |
