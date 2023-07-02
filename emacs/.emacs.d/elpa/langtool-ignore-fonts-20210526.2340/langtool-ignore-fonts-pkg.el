@@ -1,2 +1,0 @@
-;;; Generated package description from langtool-ignore-fonts.el  -*- no-byte-compile: t -*-
-(define-package "langtool-ignore-fonts" "20210526.2340" "Force langtool to ignore certain fonts" '((emacs "25.1") (langtool "2.2.1")) :commit "a5d04c3840c293f1b11db3c28e7210d0d20f53af" :authors '(("Christopher Lloyd" . "cjl8zf@virginia.edu")) :maintainer '("Christopher Lloyd" . "cjl8zf@virginia.edu") :url "https://github.com/cjl8zf/langtool-ignore-fonts")
