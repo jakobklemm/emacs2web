@@ -1,6 +1,5 @@
-FROM ubuntu:latest
+FROM ghcr.io/jakobklemm/emacs2base:latest
 
-LABEL author="Dominik Keller" maintainer=""
 LABEL org.opencontainers.image.licenses=GPLv3
 
 ENV HOME=/home/user/
