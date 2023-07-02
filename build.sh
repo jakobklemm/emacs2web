@@ -11,5 +11,7 @@ sudoapt-get -y install xorg libgtk-3-dev libx11
 git clone https://www.github.com/emacs-mirror/emacs emacs/ --depth=1
 cd emacs/
 ./autogen.sh 
-./configure --with-json --with-native-compilation --with-pgtk --with-jpeg --with-png --with-rsvg --with-tiff --with-wide-int --with-xft --with-xml2 --with-mailutils --with-xpm CFLAGS="-O3 -march=native"
+mkdir compiled
+./configure --prefix=compiled/ --with-json --with-native-compilation --with-pgtk --with-jpeg --with-png --with-rsvg --with-tiff --with-wide-int --with-xft --with-xml2 --with-mailutils --with-xpm CFLAGS="-O3 -march=native"
 make -j$(nproc)
+make install
