@@ -1,12 +1,12 @@
 #!/bin/bash
 
-apt-get update 
+sudo apt-get update 
 
-DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install tzdata
+DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC sudo apt-get -y install tzdata
 
-apt-get -y install libgtk-3-bin git libgccjit-11-dev libjansson-dev build-essential autoconf texinfo libsqlite3-dev libgtk-3-dev libgnutls28-dev libncurses-dev apt-utils libtree-sitter-dev libxml2 texlive-full dvipng ripgrep 
+sudo apt-get -y install libgtk-3-bin git libgccjit-11-dev libjansson-dev build-essential autoconf texinfo libsqlite3-dev libgtk-3-dev libgnutls28-dev libncurses-dev apt-utils libtree-sitter-dev libxml2 texlive-full dvipng ripgrep 
 
-apt-get -y install xorg libgtk-3-dev libx11
+sudoapt-get -y install xorg libgtk-3-dev libx11
 
 git clone https://www.github.com/emacs-mirror/emacs emacs/ --depth=1
 cd emacs/
