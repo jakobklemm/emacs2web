@@ -9,4 +9,4 @@ broadwayd --port 8085 :5
 
 # GDK_BACKEND=broadway BROADWAY_DISPLAY=:7 emacs
 
-# GDK_BACKEND=broadway BROADWAY_DISPLAY=:5 emacs
+GDK_BACKEND=broadway BROADWAY_DISPLAY=:5 emacs

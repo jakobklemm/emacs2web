@@ -11,4 +11,6 @@ COPY init.sh /home/user/init.sh
 
 USER root
 
+EXPOSE 8085
+
 ENTRYPOINT ["sh", "/home/user/init.sh"]
